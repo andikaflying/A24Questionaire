@@ -1,0 +1,9 @@
+Javascript
+1. String.replaceAll(), because I can replace some words in a string simpler
+2. For example, there is a string variable that contains a long paragraph. I don't need to trim and loop to replace some text. I just use replaceAll() which is simpler. 
+3. yes, the syntax writing. I think the shorter arrow function is simpler than the regular function. And programmer can 
+create many functions simpler with the arrow function than a regular function. 
+4. myFunctionCall(++foo) means the parameter is already increased, while myFunctionCall(foo++) means the parameter is not increased
+5. Javascript class is a container that is used in an object-oriented structure. The class can contain variables, functions, and constructors. 
+The difference with function is you can create variables and functions in one container and follow the object-oriented concept. 
+

@@ -61,11 +61,11 @@ React:
         
         componentDidMount() {
             this.updateWidth();
-            window.addEventListener('check width', this.updateWidth);
+            window.addEventListener('resize', this.updateWidth);
         }
         
         componentWillUnmount() {
-            window.removeEventListener('check width', this.updateWidth);
+            window.removeEventListener('resize', this.updateWidth);
         }
         
         updateWidth() {
@@ -101,11 +101,11 @@ React:
         
         componentDidMount() {
             this.updateWidth();
-            window.addEventListener('check width', this.updateWidth);
+            window.addEventListener('resize', this.updateWidth);
         }
         
         componentWillUnmount() {
-            window.removeEventListener('check width', this.updateWidth);
+            window.removeEventListener('resize', this.updateWidth);
         }
         
         updateWidth() {
@@ -154,11 +154,11 @@ React:
         
         componentDidMount() {
             this.updateWidth();
-            window.addEventListener('check width', this.updateWidth);
+            window.addEventListener('resize', this.updateWidth);
         }
         
         componentWillUnmount() {
-            window.removeEventListener('check width', this.updateWidth);
+            window.removeEventListener('resize', this.updateWidth);
         }
         
         updateWidth() {
@@ -218,3 +218,6 @@ React:
     }
 
     export default withSetHeight
+
+
+You can run the code in app file for 14, 15, and 16. 
